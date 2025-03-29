@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Highway Gothic Expanded';
+  src: url('./fonts/highway-exp.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highway Gothic';
+  src: url('./fonts/highway.woff2') format('woff2');
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+}
+
+switch-console {
+  @media (width <= 1111px) and (orientation: landscape) {
+    zoom: 0.8;
+  }
+  @media (width <= 1111px) and (orientation: portrait) {
+    zoom: 0.45;
+  }
+}
