@@ -1,3 +1,0 @@
-- **Reference / Inspiration ⬇️**
-  - [Sprite Ruy Design](https://codepen.io/manz/pen/LYxYRNq)
-  - [Nintendo Switch Manzdev Video](https://youtu.be/fDxWun-wmrk?si=Btr9oSYt88Hcd2qw)

@@ -1,1 +1,1 @@
-import "./components/SwitchConsole.js";
+import "./components/SwitchConsole.js"
